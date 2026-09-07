@@ -1,0 +1,38 @@
+# Estado do Visual Studio (cache, indices, .suo, PCH) - ~274 MB
+.vs/
+
+# Saida de build
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+[Bb]in/
+[Oo]bj/
+
+# Artefatos de compilacao/link
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.iobj
+*.ipdb
+*.ipch
+*.tlog
+*.log
+*.recipe
+*.aps
+*.pch
+
+# Configuracoes locais do usuario (caminhos e opcoes de debug da sua maquina)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Dependencia vendorizada: freeglut fica versionado de proposito
+# (headers, .lib e .dll) para o projeto compilar em qualquer maquina.
+!ComputacaoGrafica/freeglut/
+!ComputacaoGrafica/freeglut/**
+!ComputacaoGrafica/freeglut.dll
